@@ -193,3 +193,52 @@ footer {
     to{
         transform: scale(1.1);
     }
+  
+}
+    
+#contact-text {
+    font-size: 130%;
+    font-family: Oswald, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    text-align: center;
+
+    width: 400px;
+    height: 140px;px;
+    padding-top: 35px;
+    
+
+    background-color: rgba(206, 210, 216, 0.8);
+
+    bottom: 30px;
+   left: 60px;
+
+    position: absolute;
+}
+@media screen and (max-width: 950px) {
+
+    #menu {
+        clear: left;
+        float: left;
+        margin-left: 30px;
+        margin-bottom: 20px;
+        line-height: 25px;
+    }
+
+    #cover-text {
+        left: 0;
+      
+        
+    }
+    #contact-text {
+       position: absolute;
+       margin:0 auto;
+       left:0;
+       font-size: 100%;
+       text-align:left;
+          
+           
+
+    
+
+    }

@@ -85,10 +85,10 @@ h1, h2 {
 
 @keyframes hero-zoom {
     from{
-        transform: scale(1);
+        transform: scale(0.7);
     }
     to{
-        transform: scale(1.1);
+        transform: scale(0.9);
     }
 }
 
@@ -171,3 +171,25 @@ footer {
   .purple{
       color:purple;
   }  
+  
+#ecumaster-image {
+    margin-top: 50px;
+    height: 800px;
+    width: 100%;
+    background: url('../images/ecumaster.jpg') no-repeat center center;
+
+   
+    animation-name: hero-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+
+
+@keyframes hero-zoom {
+    from{
+        transform: scale(1);
+    }
+    to{
+        transform: scale(1.1);
+    }
+}

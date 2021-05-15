@@ -150,9 +150,7 @@ footer {
 
 }
 
-  .purple{
-      color:purple;
-  }  
+  
   
 #ecumaster-image {
     margin-top: 50px;
@@ -245,6 +243,4 @@ footer {
     
 
     }
-    input[type=text]:focus {
-        border: 3px solid rgb(119, 0, 0);
-      }
+    

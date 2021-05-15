@@ -12,4 +12,4 @@ improvements to be made,
 i will add detailed product info pages focusing on the techical specifications and benefits of each product,
 add a gallery of previous tuning and fabrication work completed
 
-add a calender of planned race events that can be booked for support
+

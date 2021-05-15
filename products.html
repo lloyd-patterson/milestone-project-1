@@ -2,13 +2,12 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="patterson motorsport electronics">
     <meta name="keywords" content="motorsport, racing,electronics">
-    
-
     <link rel="stylesheet" href="assets/css/style.css">
+    <!-- Bootstrap 4.5 -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
     <title>Patterson motorsport Electronics</title>
 </head>
 <body>
@@ -21,7 +20,6 @@
                 <li>
                     <a href="contact.html">Contact Us</a>
                 </li>
-               
                 <li>
                     <a href="index.html" class="active">Home</a>
                 </li>
@@ -31,44 +29,55 @@
     <section id="hero-outer"> <h2 class="heading">PRODUCTS AND SERVICES</h2>
         <div id= "ecumaster-image"></div>
         <div id= "cover-text">
-            <H3>ELECTRONICS AND ENGINE MANAGEMENT</H3>
+            <h3 class="pt-0">ELECTRONICS AND ENGINE MANAGEMENT</h3>
             <H3 id="purple">RENEGADE RACE FUEL</H3>
             <H3>WALTON MOTORSPORT MANIFOLDS</H3></div></section>
-
-
-    <section>
-                <div class="card">
-                    <img src="assets/images/walton-turbos.jpg"alt="exhaust manifold" style="width:15%">
-                    <div class="container">
-                      <h3><b>Walton motorsport manifolds</b></h3>
-                      <p>made to order approx 2weeks lead time</p>
+    <section class="my-4">
+        <div class="row mx-3">
+            <div class="col">
+                <div class="card" style="width: 18rem;">
+                    <img src="assets/images/walton-turbos.jpg" class="card-img-top" alt="exhaust-manifold">
+                    <div class="card-body">
+                      <h5 class="card-title">Walton motorsport manifolds</h5>
+                      <p class="card-text">made to order approx 2weeks lead time.</p>
+                      <a href="contact.html" class="btn btn-primary">Buy Now</a>
                     </div>
-                  </div>
-                  <div class="card">
-                    <img src="assets/images/fuel-drum.jpg" alt="fuel drum" style="width:8%">
-                    <div class="container">
-                      <h3><b>Renegade racefuel</b></h3>
-                      <p>All blends instock
-                          contact us for pricing and recomdations </p>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card" style="width: 16rem;">
+                    <img src="assets/images/fuel-drum.jpg" class="card-img-top" alt="fuel-drum">
+                    <div class="card-body">
+                      <h5 class="card-title">Renegade Race Fuel</h5>
+                      <p class="card-text">All Blends Instock, Contact For Info.</p>
+                      <a href="contact.html" class="btn btn-primary">Call Now</a>
                     </div>
-                  </div>
-                  <div class="card">
-                    <img src="assets/images/ecu-product.jpg" alt="engine control unit" style="width:15%">
-                    <div class="container">
-                      <h3><b>Ecumaster Electronics</b></h3>
-                      <p>in stock from €780</p>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card" style="width: 18rem;">
+                    <img src="assets/images/ecu-product.jpg" class="card-img-top" alt="engine-control-unit">
+                    <div class="card-body">
+                      <h5 class="card-title">Ecumaster Electronics</h5>
+                      <p class="card-text">In stock from €780.</p>
+                      <a href="contact.html" class="btn btn-primary">Buy Now</a>
                     </div>
-                  </div>
-                  <div class="card">
-                    <img src="assets/images/dyno.jpg" alt="Avatar" style="width:15%">
-                    <div class="container">
-                      <h3><b>Dyno tuning</b></h3>
-                      <p>Call for booking</p>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card" style="width: 18rem;height:22rem">
+                    <img src="assets/images/dyno.jpg" class="card-img-top" alt="car on dyno">
+                    <div class="card-body">
+                      <h5 class="card-title">Dyno tuning</h5>
+                      <p class="card-text">Booking Required</p>
+                      <a href="contact.html" class="btn btn-primary">Book Now</a>
                     </div>
-                  </div>
-            </section>
-
-   
+                </div>
+            </div>
+        </div>
+        <br><br><br><br><br><br>
+       
+    </section>
     <footer>
         <ul class="social-networks">
             <li>
@@ -89,11 +98,8 @@
             </li>
         </ul>
     </footer>
- 
  <script src="https://kit.fontawesome.com/c7dbda0798.js" crossorigin="anonymous"></script>
 </body>
-
 </html>
 </body>
-
 </html>

@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald&display=swap');
 
+
 * {
     margin: 0;
     padding: 0;
@@ -146,7 +147,7 @@ footer {
     text-align: center;
     font-size: large;
     color: #1e8bc3
-}
+
 
 }
 
@@ -206,7 +207,7 @@ footer {
 
     width: 400px;
     height: 140px;px;
-    padding-top: 35px;
+    padding-top: 0px;
     
 
     background-color: rgba(206, 210, 216, 0.8);

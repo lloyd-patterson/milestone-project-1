@@ -1,10 +1,10 @@
 welcome to my milestone project 1
 this is a b2b styled website for a motorsport parts company
 
-![screenshot]](assets/images/website screen shot.png)
+![screenshot](assets/images/website screen shot.png)
 Format: ![Alt Text](screenshot desktop)
 
-![screenshot]](assets/images/website screen shot resposive design.png)
+![screenshot](assets/images/website_screen_shot_responsive_design.png)
 Format: ![Alt Text](screenshot mobile)
 
 the aim of the website is

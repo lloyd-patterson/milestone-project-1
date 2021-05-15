@@ -1,7 +1,7 @@
 welcome to my milestone project 1
 this is a b2b styled website for a motorsport parts company
 
-![screenshot](assets/images/website screen shot.png)
+![screenshot](assets/images/website_screen_shot.png)
 Format: ![Alt Text](screenshot desktop)
 
 ![screenshot](assets/images/website_screen_shot_responsive_design.png)
@@ -15,7 +15,7 @@ the basic wireframe/style is taken from the love running walkthrough  project al
 
 improvements to be made, 
 
-i will add detailed product info pages focusing on the techical specifications and benefits of each product,
+i will add detailed product info pages focusing on the technical specifications and benefits of each product,
 add a gallery of previous tuning and fabrication work completed
 
 i chose to use the photo of a moving car along with the zoom function while the page loads as this animation looks like a moving race car which is something that will catch the target audiance attention.
